@@ -1,0 +1,52 @@
+.header {
+    color: white;
+    padding-bottom: 50px;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger_menu {
+    display: none;
+    gap: 6px;
+}
+
+.burger {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    border-radius: 1px;
+}
+
+.logo_header {
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 1.21;
+    color: white;
+}
+
+.list_header {
+    display: flex;
+}
+
+.item_header {
+    margin-left: 60px;
+}
+
+.item_header:first-child {
+    font-weight: 700;
+}
+
+.link_header {
+    font-size: 1.8rem;
+    line-height: 1.22;
+    transition: 0.4s;
+}
+
+
+.link_header:hover {
+    text-decoration: underline;
+}

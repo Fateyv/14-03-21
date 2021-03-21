@@ -1,0 +1,318 @@
+@media (max-width: 1200px) {
+    .container {
+       width: 90%;
+    }
+
+    .about {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .title_about {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .skills {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .title_skills {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .wrapper_skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .skills_image {
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .portfolio {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .title_portfolio {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .title_portfolio_little {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .wrapper_portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text_portfolio {
+        text-align: center;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .wrapper_button {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    
+    .title_footer {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .arrow_top {
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+    }
+}   
+
+@media (max-width: 992px) {
+
+    .title_hero {
+        font-size: 5.4rem;
+    }
+
+    .text_header {
+        margin-bottom: 100px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 1.6rem;
+    }
+    
+    .hero {
+        min-height: auto;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        text-align: center;
+        position: relative;
+    }
+
+    .title_hero {
+        font-size: 4rem;
+    }
+
+    .burger_menu {
+        display: grid;
+        position: absolute;
+        gap: 12px;
+        left: 34px;
+    }
+
+
+    .burger {
+        width: 48px;
+        height: 4px;
+        background-color: white;
+        border-radius: 1px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+
+    .list_header {
+        position: absolute;
+        left: 3%;
+        top: 25%;
+        display: grid;
+        gap: 10px;
+    }
+
+    .item_header {
+        margin-left: 0;
+    }
+
+    .logo_header {
+        font-size: 4.4rem;
+    }
+
+    .header_wrapper {
+        justify-content: center;
+    }
+
+    .list_left_skills {
+        margin-right: 10px;
+    }
+
+    .images_right_skills {
+        width: 300px;
+    }
+
+    .images_portfolio_left {
+        margin-right: 28px;
+        width: 248px;
+    }
+    
+    .images_portfolio_right {
+        width: 180px;
+    }
+
+    .link_footer {
+        font-size: 1.4rem;
+        line-height: 1.22;
+    }
+}
+
+@media (max-width: 488px) {
+    p {
+        font-size: 1.2rem;
+    }
+
+    .hero {
+      padding-top: 36px;
+      padding-bottom: 50px;
+    }
+
+    .title_hero {
+        font-size: 2rem;
+        margin-bottom: 13px;
+    }
+
+    .text_header {
+        font-size: 1.3rem;
+        margin-bottom: 41px;
+    }
+
+    .link_hero {
+        font-size: 1.3rem;
+    }
+
+    .burger_menu {
+        gap: 6px;
+    }
+
+    .burger {
+        width: 24px;
+        height: 2px;
+    }
+
+    .logo_header {
+        font-size: 2.4rem;
+    }
+
+    .about {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .title_about {
+        margin-bottom: 20px;
+    }
+
+    .text_top {
+        margin-bottom: 12px;
+    }
+
+    .skills {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .title_skills {
+        margin-bottom: 25px;
+    }
+
+    .skills_image {
+        width: 250px;
+        margin-bottom: 25px;
+    }
+
+    .item_left_skills {
+        font-size: 1rem;
+        margin-top: 8px;
+    }
+
+    .item_left_skills:first-child {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .item_right_skills {
+        font-size: 1rem;
+        margin-top: 8px;
+    }
+
+    .item_right_skills:first-child {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .images_right_skills {
+        width: 190px;
+    }
+
+    .portfolio {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .title_portfolio {
+        margin-bottom: 20px;
+    }
+
+    .title_portfolio_little {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .text_portfolio {
+        margin-bottom: 24px;
+    }
+
+    .images_portfolio_left {
+        margin-right: 12px;
+        width: 170px;
+    }
+    
+    .images_portfolio_right {
+        width: 124px;
+    }
+    
+    .first_img {
+        margin-bottom: 12px;
+    }
+
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    .title_footer {
+        margin-bottom: 25px;
+    }
+
+    .wrapper_footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item_col:last-child {
+        margin-bottom: 30px;
+    }
+
+    .link_footer {
+        font-size: 1.4rem;
+    }
+}

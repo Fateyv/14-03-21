@@ -1,0 +1,32 @@
+.footer {
+    padding-top: 93px;
+    padding-bottom: 189px;
+    background-color: #FFFAF2;
+}
+
+.title_footer {
+    margin-bottom: 51px;
+}
+
+.wrapper_footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item_col {
+    margin-bottom: 14px;
+}
+
+.item_col:last-child {
+    margin-bottom: 0;
+}
+
+.link_footer {
+    font-size: 1.8rem;
+    line-height: 1.22;
+}
+
+.mail_footer {
+    display: block;
+    margin-bottom: 14px;
+}
